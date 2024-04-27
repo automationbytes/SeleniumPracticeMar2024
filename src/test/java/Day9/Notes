@@ -1,0 +1,30 @@
+
+Id
+Name
+Link Text
+Partial Link Text
+Class Name
+Tag Name
+Xpath
+CSS
+
+XPATH - 2 Types
+
+1) Relative XPATH - close the webelement. // (recommended)
+2) Absolute XPATH - Start node (HTML tag). / (not recommended)
+
+//tagname[@attribute = 'value']
+//input[@data-testid = 'royal_email']
+//input[@name="email"]
+//input[@id="email"]
+
+//input[@type="text" and @aria-label="First name"]
+
+contains
+-------
+//input[@name="reg_email__"]
+//input[contains(@name,'reg_email') and @aria-label="Mobile number or email address"]
+
+//input[contains(@name,'reg_email') and contains(@aria-label,'Mobile number')]
+
+text()
