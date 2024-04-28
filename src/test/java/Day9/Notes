@@ -28,3 +28,22 @@ contains
 //input[contains(@name,'reg_email') and contains(@aria-label,'Mobile number')]
 
 text()
+
+
+
+====================================
+
+
+ types of wait
+
+ implicit wait - all the elements
+ explicit wait - for a particular element
+ fluent wait - with additional parameters
+
+
+css selector
+
+input[placeholder="Username"]
+
+#user-name
+
