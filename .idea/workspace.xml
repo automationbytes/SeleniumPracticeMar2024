@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823d4959-a809-466f-a2b8-47657efab0ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/WinHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/Scrolling_JS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day11/WinHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day11/WinHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day11/WindHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day11/WindHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,7 +47,9 @@
     "Application.List_Eg.executor": "Run",
     "Application.Locators_Eg.executor": "Run",
     "Application.Screenshot_Eg.executor": "Run",
+    "Application.Scrolling_JS.executor": "Run",
     "Application.Select_Dropdown.executor": "Run",
+    "Application.WinHand.executor": "Run",
     "Application.WindHandling.executor": "Run",
     "Application.iframes_Eg.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -66,9 +70,9 @@
       <recent name="C:\DevLabs\NovBatch2023\Automation_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WinHand">
-    <configuration name="Fb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.Fb" />
+  <component name="RunManager" selected="Application.Scrolling_JS">
+    <configuration name="Screenshot_Eg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day10.Screenshot_Eg" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Screenshot_Eg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.Screenshot_Eg" />
+    <configuration name="Scrolling_JS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Scrolling_JS" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day10.*" />
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scrolling_JS" />
         <item itemvalue="Application.WinHand" />
         <item itemvalue="Application.WindHandling" />
         <item itemvalue="Application.iframes_Eg" />
         <item itemvalue="Application.Screenshot_Eg" />
-        <item itemvalue="Application.Fb" />
       </list>
     </recent_temporary>
   </component>

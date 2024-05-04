@@ -24,8 +24,10 @@ public class WindHandling {
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getTitle());
 
-        String ParentWindow = driver.getWindowHandle(); //pid
-        Set<String> allOpenWindow = driver.getWindowHandles();//all open windows pids it includes parent window
+        String ParentWindow = driver.getWindowHandle(); //pid - a
+        Set<String> allOpenWindow = driver.getWindowHandles();
+        //a b c d
+        //all open windows pids it includes parent window
         System.out.println("ParentWindow - "+ ParentWindow);
         System.out.println("All Open Windows - "+ allOpenWindow);
 
