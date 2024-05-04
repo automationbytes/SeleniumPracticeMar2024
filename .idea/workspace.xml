@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823d4959-a809-466f-a2b8-47657efab0ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/iframes_Eg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/WindHandling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Application.Locators_Eg.executor": "Run",
     "Application.Screenshot_Eg.executor": "Run",
     "Application.Select_Dropdown.executor": "Run",
+    "Application.WindHandling.executor": "Run",
     "Application.iframes_Eg.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.Automation_Selenium [install].executor": "Run",
@@ -64,7 +65,7 @@
       <recent name="C:\DevLabs\NovBatch2023\Automation_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.iframes_Eg">
+  <component name="RunManager" selected="Application.WindHandling">
     <configuration name="Fb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day10.Fb" />
       <module name="Automation_Selenium" />
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Select_Dropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day9.Select_Dropdown" />
+    <configuration name="WindHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.WindHandling" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day9.*" />
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindHandling" />
         <item itemvalue="Application.iframes_Eg" />
         <item itemvalue="Application.Screenshot_Eg" />
         <item itemvalue="Application.Fb" />
         <item itemvalue="Application.List_Eg" />
-        <item itemvalue="Application.Select_Dropdown" />
       </list>
     </recent_temporary>
   </component>
