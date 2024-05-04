@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823d4959-a809-466f-a2b8-47657efab0ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/WindHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day11/WinHand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,22 +66,9 @@
       <recent name="C:\DevLabs\NovBatch2023\Automation_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WindHandling">
+  <component name="RunManager" selected="Application.WinHand">
     <configuration name="Fb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day10.Fb" />
-      <module name="Automation_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="List_Eg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day10.List_Eg" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -98,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.WinHand" />
+      <module name="Automation_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WinHand" />
         <item itemvalue="Application.WindHandling" />
         <item itemvalue="Application.iframes_Eg" />
         <item itemvalue="Application.Screenshot_Eg" />
         <item itemvalue="Application.Fb" />
-        <item itemvalue="Application.List_Eg" />
       </list>
     </recent_temporary>
   </component>
