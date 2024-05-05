@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
-
+//right click is context click in selenium
 public class Contextclick_Eg {
     public static void main(String[] args) {
 
