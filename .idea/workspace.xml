@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823d4959-a809-466f-a2b8-47657efab0ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/Actions_Hover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/DragnDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WithOut_Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/DoubleClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/Scrolling_Actions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Actions_Hover.executor": "Run",
+    "Application.DragnDrop.executor": "Run",
     "Application.Fb.executor": "Run",
     "Application.FirstSelenium.executor": "Run",
     "Application.List_Eg.executor": "Run",
     "Application.Locators_Eg.executor": "Run",
     "Application.Screenshot_Eg.executor": "Run",
+    "Application.Scrolling_Actions.executor": "Run",
     "Application.Scrolling_JS.executor": "Run",
     "Application.Select_Dropdown.executor": "Run",
     "Application.WinHand.executor": "Run",
@@ -72,9 +73,22 @@
       <recent name="C:\DevLabs\NovBatch2023\Automation_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DragnDrop">
-    <configuration name="Actions_Hover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.Actions_Hover" />
+  <component name="RunManager" selected="Application.Contextclick_Eg">
+    <configuration name="Contextclick_Eg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.Contextclick_Eg" />
+      <module name="Automation_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.DoubleClick" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -99,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scrolling_JS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Scrolling_JS" />
+    <configuration name="Scrolling_Actions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.Scrolling_Actions" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WinHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.WinHand" />
-      <module name="Automation_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day11.*" />
+          <option name="PATTERN" value="Day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Contextclick_Eg" />
+        <item itemvalue="Application.DoubleClick" />
+        <item itemvalue="Application.Scrolling_Actions" />
         <item itemvalue="Application.DragnDrop" />
         <item itemvalue="Application.WithOut_Actions" />
-        <item itemvalue="Application.Actions_Hover" />
-        <item itemvalue="Application.Scrolling_JS" />
-        <item itemvalue="Application.WinHand" />
       </list>
     </recent_temporary>
   </component>
