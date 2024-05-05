@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="823d4959-a809-466f-a2b8-47657efab0ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/FIleDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/FileUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WebTable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day12/WebTable2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Day12/Contextclick_Eg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day12/Contextclick_Eg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
     "Application.Contextclick_Eg.executor": "Run",
     "Application.DoubleClick.executor": "Run",
     "Application.DragnDrop.executor": "Run",
+    "Application.FIleDownload.executor": "Run",
     "Application.Fb.executor": "Run",
     "Application.FileUpload.executor": "Run",
     "Application.FirstSelenium.executor": "Run",
@@ -56,6 +55,8 @@
     "Application.Scrolling_Actions.executor": "Run",
     "Application.Scrolling_JS.executor": "Run",
     "Application.Select_Dropdown.executor": "Run",
+    "Application.WebTable1.executor": "Run",
+    "Application.WebTable2.executor": "Run",
     "Application.WinHand.executor": "Run",
     "Application.WindHandling.executor": "Run",
     "Application.WithOut_Actions.executor": "Run",
@@ -78,22 +79,9 @@
       <recent name="C:\DevLabs\NovBatch2023\Automation_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FIleDownload">
+  <component name="RunManager" selected="Application.WebTable2">
     <configuration name="Contextclick_Eg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day12.Contextclick_Eg" />
-      <module name="Automation_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoubleClick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.DoubleClick" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +119,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scrolling_Actions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12.Scrolling_Actions" />
+    <configuration name="WebTable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.WebTable1" />
+      <module name="Automation_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.WebTable2" />
       <module name="Automation_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebTable2" />
+        <item itemvalue="Application.WebTable1" />
         <item itemvalue="Application.FIleDownload" />
         <item itemvalue="Application.FileUpload" />
         <item itemvalue="Application.Contextclick_Eg" />
-        <item itemvalue="Application.DoubleClick" />
-        <item itemvalue="Application.Scrolling_Actions" />
       </list>
     </recent_temporary>
   </component>
